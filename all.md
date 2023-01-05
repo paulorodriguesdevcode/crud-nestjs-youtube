@@ -25,4 +25,10 @@
 [X] **Deletar um product**
 
 [] **Add banco**
-    - Instalando pacotes
+    [X] - refatorar arquivos.module e organizar imports
+    [X] - Instalando pacotes configurações de banco no app.module
+    [X] - criando entidade
+    [X] - adicionando entidade no module
+    [X] - importando typeorm no product.module
+    []  - injetando repository no service
+

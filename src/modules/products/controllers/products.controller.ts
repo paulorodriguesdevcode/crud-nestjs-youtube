@@ -1,13 +1,13 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { IProduct } from '../dtos';
-import { ProductsService } from '../services/products.service';
+import { ProductsService } from '../services/';
 
 @Controller()
 export class ProductsController {
   constructor(private readonly productsService: ProductsService) { }
 
   @Get()
-  findAll(): IProduct[] {
+  findAll():Promise<IProduct[]> {
     return this.productsService.findAll();
   }
 
