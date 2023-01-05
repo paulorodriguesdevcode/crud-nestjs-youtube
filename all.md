@@ -30,5 +30,5 @@
     [X] - criando entidade
     [X] - adicionando entidade no module
     [X] - importando typeorm no product.module
-    []  - injetando repository no service
+    [X] - injetando repository no service
 
